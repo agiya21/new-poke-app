@@ -10,7 +10,6 @@ function Lists(props) {
     const listName = props.details
     return (
         <div>
-            <p>Content #3</p>
             {
                 listName.length > 0 ? listName.map(pokes => {
                     const { name } = pokes

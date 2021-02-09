@@ -51,7 +51,6 @@ class PokemonList extends React.Component {
                     background-color : white;
                     border : none;
                     border-radius : 15px`}>
-                    <p>Content #2</p>
                     {this.state.loading === true && <h2>Loading...</h2>}
                     <Lists details={pokeDetails} />
                 </div>
