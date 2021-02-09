@@ -17,7 +17,7 @@ class PokemonList extends React.Component {
 
     componentDidMount() {
         this.setState({ loading: true })
-        fetch("http://pokeapi.co/api/v2/pokemon")
+        fetch("https://pokeapi.co/api/v2/pokemon")
             .then(response => response.json())
             .then(data => {
                 this.setState({

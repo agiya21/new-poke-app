@@ -19,7 +19,7 @@ class PokemonDetail extends React.Component {
 
     componentDidMount() {
         const pokeName = this.props.match.params.name
-        const linkUrl = "http://pokeapi.co/api/v2/pokemon/" + pokeName
+        const linkUrl = "https://pokeapi.co/api/v2/pokemon/" + pokeName
         this.setState({ loading: true })
         fetch(linkUrl)
             .then(res => res.json())
