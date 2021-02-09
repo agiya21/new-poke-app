@@ -33,6 +33,7 @@ function App() {
       <Router basename={window.location.pathname || ''}>
         <main css={css`
           padding-bottom : 45px`}>
+            <p>Contents</p>
           <Route exact path="/">
             <PokemonList />
           </Route>

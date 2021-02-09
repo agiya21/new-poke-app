@@ -39,7 +39,7 @@ class PokemonDetail extends React.Component {
         const catchPercentage = Math.floor(Math.random() * 100)
 
         return (
-            <div css={css`text-align : center; color : white`}>
+            <div css={css`text-align : center`}>
                 {this.state.loading === true && <h2>Loading...</h2>}
                 {/** Rendering Pokemon Pics. Front and Back. */}
                 <PokemonDetailPics pics={pokemonDetails.sprites} />
