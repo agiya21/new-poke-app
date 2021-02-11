@@ -19,7 +19,11 @@ function App() {
     }}>
 
       <div>
-        <div css={css`position : sticky; position : -webkit-sticky; top : 0`}>
+        <div css={css`
+          position : sticky; 
+          position : -webkit-sticky; 
+          top : 0`}>
+
           <h1 css={css`
             padding : 12px;
             text-align : center;
@@ -35,7 +39,7 @@ function App() {
 
       <Router basename={window.location.pathname || ''}>
         <main css={css`
-          padding-bottom : 45px`}>
+          padding-bottom : 80px`}>
           <Route exact path="/">
             <PokemonList />
           </Route>

@@ -4,6 +4,7 @@
 import React from "react"
 import Lists from "./Lists"
 import { css, jsx } from '@emotion/react'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class PokemonList extends React.Component {
     constructor() {
@@ -44,9 +45,14 @@ class PokemonList extends React.Component {
         const { pokeDetails } = this.state
         return (
             <div>
+                <Jumbotron>
+                    <h1>Hello!</h1>
+                    <p>
+                        This is my pokemon app project. Enjoy!
+                    </p>
+                </Jumbotron>
                 <h2 css={css`text-align : center`}>Choose Your Pokemon!</h2>
                 <div css={css`
-                    text-align : center;
                     padding-top : 25px; 
                     background-color : white;
                     border : none;

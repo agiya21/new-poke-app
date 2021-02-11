@@ -6,6 +6,8 @@ import { Link } from "react-router-dom"
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { css, jsx } from '@emotion/react'
+import pokeMenu from "../img/pokeMenu.png"
+import backpack from "../img/backpack.png"
 
 function NavBarFooter() {
     return (
@@ -14,11 +16,25 @@ function NavBarFooter() {
                 <Nav>
                     <Nav.Item css={css`
                         padding : 10px`}>
-                        <Link to="/"><b>Pokemon List</b></Link>
+                        <Link to="/" className="d-flex flex-column">
+                            <img
+                                src={pokeMenu}
+                                width="30"
+                                height="30"
+                                alt="pokeball-menu" />
+                            <b>Pokemon List</b>
+                        </Link>
                     </Nav.Item>
                     <Nav.Item css={css`
                         padding : 10px`}>
-                        <Link to="/MyPokemonList"><b>My Pokemon List</b></Link>
+                        <Link to="/MyPokemonList" className="d-flex flex-column">
+                            <img 
+                                src={backpack}
+                                width="30"
+                                height="30"
+                                alt="backpack-pic" />
+                            <b>My Pokemon List</b>
+                        </Link>
                     </Nav.Item>
                 </Nav>
             </Navbar>
