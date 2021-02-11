@@ -19,15 +19,18 @@ function App() {
     }}>
 
       <div>
-        <h1 css={css`
-        padding : 12px;
-        text-align : center;
-        color : white`}>
+        <div css={css`position : sticky; position : -webkit-sticky; top : 0`}>
+          <h1 css={css`
+            padding : 12px;
+            text-align : center;
+            color : white`}>
 
-          <img css={css` width : 50px; 
-          padding-bottom : 10px; 
-          padding-right : 5px;
-          filter : invert(100%)`} src={pokeball} alt="Pokeball" />Pokemon App</h1>
+            <img css={css` width : 50px; 
+              padding-bottom : 10px; 
+              padding-right : 5px;
+              filter : invert(100%);`} src={pokeball} alt="Pokeball" />
+            Pokemon App</h1>
+        </div>
       </div>
 
       <Router basename={window.location.pathname || ''}>
@@ -45,7 +48,6 @@ function App() {
         </main>
         <NavBarFooter />
       </Router>
-
     </div>
 
   )
