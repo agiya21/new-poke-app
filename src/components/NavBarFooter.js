@@ -16,12 +16,14 @@ function NavBarFooter() {
                 <Nav>
                     <Nav.Item css={css`
                         padding : 10px`}>
-                        <Link to="/" className="d-flex flex-column">
+                        <Link to="/" className="d-flex flex-sm-column">
                             <img
                                 src={pokeMenu}
                                 width="30"
                                 height="30"
-                                alt="pokeball-menu" />
+                                alt="pokeball-menu"
+                                class="center"
+                                css={css`display : block ; margin-left: auto; margin-right: auto`} />
                             <b>Pokemon List</b>
                         </Link>
                     </Nav.Item>
@@ -32,7 +34,8 @@ function NavBarFooter() {
                                 src={backpack}
                                 width="30"
                                 height="30"
-                                alt="backpack-pic" />
+                                alt="backpack-pic"
+                                css={css`display : block ; margin-left: auto; margin-right: auto`} />
                             <b>My Pokemon List</b>
                         </Link>
                     </Nav.Item>

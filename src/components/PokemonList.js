@@ -45,13 +45,13 @@ class PokemonList extends React.Component {
         const { pokeDetails } = this.state
         return (
             <div>
-                <Jumbotron>
-                    <h1>Hello!</h1>
+                <div css={css`padding : 50px; color : white`}>
+                <h1>Hello!</h1>
                     <p>
                         This is my pokemon app project. Enjoy!
                     </p>
-                </Jumbotron>
-                <h2 css={css`text-align : center`}>Choose Your Pokemon!</h2>
+                </div>
+                <h2 css={css`text-align : center; color : white`}>Choose Your Pokemon!</h2>
                 <div css={css`
                     padding-top : 25px; 
                     background-color : white;

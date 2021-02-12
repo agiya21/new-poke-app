@@ -17,9 +17,12 @@ function Lists(props) {
                     return (
                         <div css={css` text-align : center`}>
                             <Link to={linkUrl}>
-                                <Button css={css`border-radius : 25px`}><h3 css={css`text-transform : capitalized`}>{name}</h3></Button>
+                                <Button
+                                    className="btn-block"
+                                    css={css`border-radius : 25px`}>
+                                    <h3 css={css`text-transform : capitalized`}>{name}</h3>
+                                </Button>
                             </Link>
-                            <br></br>
                             <br></br>
                         </div>
                     )
