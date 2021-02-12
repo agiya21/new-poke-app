@@ -16,20 +16,20 @@ function NavBarFooter() {
                 <Nav>
                     <Nav.Item css={css`
                         padding : 10px`}>
-                        <Link to="/" className="d-flex flex-sm-column">
+                        <Link to="/" className="d-flex flex-column" css={css`&:hover {text-decoration : none}`}>
                             <img
                                 src={pokeMenu}
                                 width="30"
                                 height="30"
                                 alt="pokeball-menu"
                                 class="center"
-                                css={css`display : block ; margin-left: auto; margin-right: auto`} />
+                                css={css`display : block ; margin-left : auto ; margin-right: auto`} />
                             <b>Pokemon List</b>
                         </Link>
                     </Nav.Item>
                     <Nav.Item css={css`
                         padding : 10px`}>
-                        <Link to="/MyPokemonList" className="d-flex flex-column">
+                        <Link to="/MyPokemonList" className="d-flex flex-column" css={css`&:hover {text-decoration : none}`}>
                             <img 
                                 src={backpack}
                                 width="30"
