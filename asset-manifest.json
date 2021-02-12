@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/new-poke-app/static/js/main.8bb94e1b.chunk.js",
-    "main.js.map": "/new-poke-app/static/js/main.8bb94e1b.chunk.js.map",
+    "main.js": "/new-poke-app/static/js/main.a1e136ba.chunk.js",
+    "main.js.map": "/new-poke-app/static/js/main.a1e136ba.chunk.js.map",
     "runtime-main.js": "/new-poke-app/static/js/runtime-main.7bdd3ac1.js",
     "runtime-main.js.map": "/new-poke-app/static/js/runtime-main.7bdd3ac1.js.map",
-    "static/js/2.42be38a2.chunk.js": "/new-poke-app/static/js/2.42be38a2.chunk.js",
-    "static/js/2.42be38a2.chunk.js.map": "/new-poke-app/static/js/2.42be38a2.chunk.js.map",
+    "static/js/2.37e60798.chunk.js": "/new-poke-app/static/js/2.37e60798.chunk.js",
+    "static/js/2.37e60798.chunk.js.map": "/new-poke-app/static/js/2.37e60798.chunk.js.map",
     "index.html": "/new-poke-app/index.html",
-    "static/js/2.42be38a2.chunk.js.LICENSE.txt": "/new-poke-app/static/js/2.42be38a2.chunk.js.LICENSE.txt",
+    "static/js/2.37e60798.chunk.js.LICENSE.txt": "/new-poke-app/static/js/2.37e60798.chunk.js.LICENSE.txt",
     "static/media/backpack.19836c09.png": "/new-poke-app/static/media/backpack.19836c09.png",
     "static/media/pokeMenu.59bfb750.png": "/new-poke-app/static/media/pokeMenu.59bfb750.png",
     "static/media/pokeball.dec3b7c9.png": "/new-poke-app/static/media/pokeball.dec3b7c9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7bdd3ac1.js",
-    "static/js/2.42be38a2.chunk.js",
-    "static/js/main.8bb94e1b.chunk.js"
+    "static/js/2.37e60798.chunk.js",
+    "static/js/main.a1e136ba.chunk.js"
   ]
 }
